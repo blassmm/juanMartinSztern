@@ -25,7 +25,7 @@ function SobreMi() {
               <ul className="text-gray-300 space-y-2">
                 <li className="flex items-start">
                   <span className="text-[#8e44ad] mr-2">•</span>
-                  <span>Especialista en Patología Cráneo-Mandibular (ATM)</span>
+                  <span>Endodoncia Mecanizada (Formación Académica)</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#8e44ad] mr-2">•</span>
@@ -53,7 +53,7 @@ function SobreMi() {
             <div className="bg-[#121212] p-6 rounded-lg border-l-4 border-[#8e44ad]">
               <h3 className="text-xl font-semibold text-white mb-3">Experiencia Profesional</h3>
               <p className="text-gray-300">
-                Con más de 15 años de experiencia en el campo de la odontología,
+                Con más de 10 años de experiencia en el campo de la odontología,
                 he ayudado a miles de pacientes a recuperar su sonrisa y confianza.
                 Mi práctica se especializa en tratamientos avanzados utilizando las
                 técnicas más innovadoras del sector, siempre con un enfoque integral
@@ -66,11 +66,16 @@ function SobreMi() {
             <div className="absolute top-0 -left-10 w-72 h-72 bg-[#8e44ad] rounded-full filter blur-[100px] opacity-20"></div>
 
             <div className="relative z-10 bg-[#121212] p-4 rounded-lg shadow-xl transform rotate-3 w-full max-w-md">
-              <div className="aspect-[3/4] w-full bg-gray-800 rounded overflow-hidden relative">
-                {/* Replace with actual doctor image when available */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-white text-lg">Fotografía Dr. Juan Martín</span>
-                </div>
+              <div className="aspect-[3/4] w-full rounded overflow-hidden relative">
+                <Image
+                  src="/resources/profile-2.jpg"
+                  alt="Dr. Juan Martín Sztern"
+                  fill
+                  style={{ objectFit: 'cover' }}
+                  className="rounded"
+                  priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#121212] to-transparent opacity-30"></div>
               </div>
 
               <div className="mt-4 p-4 bg-[#1a1a1a] rounded">
@@ -101,17 +106,14 @@ function SobreMi() {
 
         <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           <div className="bg-[#121212] p-6 rounded-lg text-center">
-            <div className="text-[#8e44ad] text-4xl font-bold mb-2">15+</div>
+            <div className="text-[#8e44ad] text-4xl font-bold mb-2">10+</div>
             <p className="text-white">Años de Experiencia</p>
           </div>
           <div className="bg-[#121212] p-6 rounded-lg text-center">
-            <div className="text-[#8e44ad] text-4xl font-bold mb-2">1000+</div>
+            <div className="text-[#8e44ad] text-4xl font-bold mb-2">300+</div>
             <p className="text-white">Pacientes Satisfechos</p>
           </div>
-          <div className="bg-[#121212] p-6 rounded-lg text-center">
-            <div className="text-[#8e44ad] text-4xl font-bold mb-2">25+</div>
-            <p className="text-white">Premios y Reconocimientos</p>
-          </div>
+
           <div className="bg-[#121212] p-6 rounded-lg text-center">
             <div className="text-[#8e44ad] text-4xl font-bold mb-2">100%</div>
             <p className="text-white">Compromiso con la Calidad</p>
