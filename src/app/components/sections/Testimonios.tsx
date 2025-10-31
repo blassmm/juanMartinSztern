@@ -9,28 +9,28 @@ function Testimonios() {
       nombre: 'Carlos Rodríguez',
       ocupacion: 'Ingeniero',
       texto: 'El Dr. Juan Martín transformó mi sonrisa por completo. Su profesionalismo y atención personalizada hicieron que me sintiera cómodo durante todo el tratamiento de implantes.',
-      imagen: '/avatar1.png', // Replace with actual image path when available
+      imagen: '/avatar1.png',
     },
     {
       id: 2,
       nombre: 'Laura Gómez',
       ocupacion: 'Profesora',
       texto: 'Después de años de miedo al dentista, la terapia de desbloqueo emocional del Dr. Juan Martín me ayudó a superar mi ansiedad. Ahora puedo acudir a mis revisiones sin problema.',
-      imagen: '/avatar2.png', // Replace with actual image path when available
+      imagen: '/avatar2.png',
     },
     {
       id: 3,
       nombre: 'Martín Fernández',
       ocupacion: 'Empresario',
       texto: 'Los resultados de mi tratamiento de estética dental superaron todas mis expectativas. El Dr. Juan Martín es un verdadero artista y su equipo es excepcional.',
-      imagen: '/avatar3.png', // Replace with actual image path when available
+      imagen: '/avatar3.png',
     },
     {
       id: 4,
       nombre: 'Ana Martínez',
       ocupacion: 'Abogada',
       texto: 'Gracias al Dr. Juan Martín, mi ortodoncia fue mucho más cómoda y rápida de lo que esperaba. Su conocimiento y tecnología de vanguardia marcan la diferencia.',
-      imagen: '/avatar4.png', // Replace with actual image path when available
+      imagen: '/avatar4.png',
     },
   ];
 
@@ -52,7 +52,6 @@ function Testimonios() {
               <div className="w-full md:w-1/3">
                 <div className="relative">
                   <div className="aspect-square w-full max-w-[300px] mx-auto bg-gray-800 rounded-lg overflow-hidden">
-                    {/* Replace with actual testimonial image when available */}
                     <div className="absolute inset-0 flex items-center justify-center">
                       <div className="w-20 h-20 rounded-full bg-[#8e44ad]/20 flex items-center justify-center">
                         <span className="text-2xl font-bold text-[#8e44ad]">
@@ -125,20 +124,6 @@ function Testimonios() {
           </div>
         </div>
 
-        <div className="mt-16 flex flex-col md:flex-row items-center justify-center gap-6 text-center">
-          <div className="bg-[#121212] p-6 rounded-lg w-full md:w-1/3">
-            <div className="text-[#8e44ad] text-4xl font-bold mb-2">98%</div>
-            <p className="text-white">Tasa de Satisfacción</p>
-          </div>
-          <div className="bg-[#121212] p-6 rounded-lg w-full md:w-1/3">
-            <div className="text-[#8e44ad] text-4xl font-bold mb-2">5/5</div>
-            <p className="text-white">Calificación Promedio</p>
-          </div>
-          <div className="bg-[#121212] p-6 rounded-lg w-full md:w-1/3">
-            <div className="text-[#8e44ad] text-4xl font-bold mb-2">+500</div>
-            <p className="text-white">Reseñas Positivas</p>
-          </div>
-        </div>
       </div>
     </section>
   );
