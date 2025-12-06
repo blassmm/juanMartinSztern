@@ -1,6 +1,7 @@
 "use client";
 import Image from 'next/image';
 import Link from 'next/link';
+import WhatsAppButton from '../ui/WhatsAppButton';
 
 function Terapias() {
   const servicios = [
@@ -93,7 +94,7 @@ function Terapias() {
   return (
     <section id="servicios" className="py-20 bg-[#121212]">
       <div className="container-section">
-        <h2 className="section-title text-white">Servicios Médicos</h2>
+        <h2 className="section-title text-white">Servicios Odontologicos</h2>
         <p className="section-subtitle">Tratamientos Especializados</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
@@ -132,12 +133,12 @@ function Terapias() {
         </div>
 
         <div className="mt-16 text-center">
-          <Link href="/contacto" className="btn-primary inline-flex items-center">
-            Consultar por un Servicio
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-5 h-5 ml-2">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </Link>
+          <WhatsAppButton
+            variant="button"
+            buttonText="Agendar Consulta"
+            position="static"
+            customClass="font-semibold"
+          />
         </div>
       </div>
     </section>

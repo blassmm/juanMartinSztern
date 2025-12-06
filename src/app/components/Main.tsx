@@ -5,6 +5,7 @@ import Terapias from "./sections/Terapias";
 import Testimonios from "./sections/Testimonios";
 import Footer from "./Footer";
 import WhatsAppButton from "./ui/WhatsAppButton";
+import InstagramButton from "./ui/InstagramButton";
 
 function Main() {
   return (
@@ -15,7 +16,8 @@ function Main() {
         <Terapias />
         <Testimonios />
 
-        {/* WhatsApp Floating Button */}
+        {/* Floating Buttons */}
+        <InstagramButton />
         <WhatsAppButton />
       </main>
       <Footer />

@@ -18,7 +18,8 @@ function Inicio() {
           <div className="w-full md:w-1/2 space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
               Dr. Juan Martín Sztern
-              <span className="block text-[#8e44ad] mt-2">Especialista en Patología Cráneo-Mandibular (ATM)</span>
+              <span className="block text-[#8e44ad] mt-2 text-2xl md:text-3xl lg:text-4xl">Especialista en Patología Cráneo-Mandibular (ATM).</span>
+              <span className="block text-[#8e44ad] text-2xl md:text-3xl lg:text-4xl">Diplomado en Ortodoncia</span>
             </h1>
 
             <p className="text-lg text-gray-300 max-w-lg">
