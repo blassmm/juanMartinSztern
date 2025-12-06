@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Link from "next/link";
 import type { Metadata } from "next";
 import WhatsAppButton from "../components/ui/WhatsAppButton";
+import InstagramButton from "../components/ui/InstagramButton";
 
 export const metadata: Metadata = {
   title: "Contacto | Dr. Juan Martín Sztern",
@@ -222,7 +223,8 @@ function ContactPage() {
           </div>
         </div>
 
-        {/* WhatsApp Floating Button */}
+        {/* Floating Buttons */}
+        <InstagramButton />
         <WhatsAppButton />
       </main>
       <Footer />

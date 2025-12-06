@@ -23,9 +23,9 @@ function SobreMi() {
             <div className="bg-[#121212] p-6 rounded-lg border-l-4 border-[#8e44ad]">
               <h3 className="text-xl font-semibold text-white mb-3">Formación Académica</h3>
               <ul className="text-gray-300 space-y-2">
-                <li className="flex items-start">
+              <li className="flex items-start">
                   <span className="text-[#8e44ad] mr-2">•</span>
-                  <span>Endodoncia Mecanizada (Formación Académica)</span>
+                  <span>Especialista en ATM</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#8e44ad] mr-2">•</span>
@@ -33,33 +33,28 @@ function SobreMi() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#8e44ad] mr-2">•</span>
-                  <span>Formación en Estética Dental</span>
+                  <span>Posgrado en Endodoncia mecanizada</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#8e44ad] mr-2">•</span>
-                  <span>Especialización en Endodoncia</span>
+                  <span>Posgrado de estetica dental</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#8e44ad] mr-2">•</span>
-                  <span>Formación en Rehabilitación Oral</span>
+                  <span>Posgrado en rehabilitacion en protesis fija</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#8e44ad] mr-2">•</span>
-                  <span>Certificación en Armonización Orofacial (aplicación de toxina botulínica)</span>
+                  <span>Posgrado de cirugia</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#8e44ad] mr-2">•</span>
+                  <span>Profesor facultad de odontologia UNLP</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-[#121212] p-6 rounded-lg border-l-4 border-[#8e44ad]">
-              <h3 className="text-xl font-semibold text-white mb-3">Experiencia Profesional</h3>
-              <p className="text-gray-300">
-                Con más de 10 años de experiencia en el campo de la odontología,
-                he ayudado a miles de pacientes a recuperar su sonrisa y confianza.
-                Mi práctica se especializa en tratamientos avanzados utilizando las
-                técnicas más innovadoras del sector, siempre con un enfoque integral
-                que considera tanto la estética como la funcionalidad.
-              </p>
-            </div>
+            
           </div>
 
           <div className="relative h-full min-h-[400px] flex items-center justify-center">
@@ -80,7 +75,6 @@ function SobreMi() {
 
               <div className="mt-4 p-4 bg-[#1a1a1a] rounded">
                 <h4 className="text-[#8e44ad] font-semibold">Dr. Juan Martín Sztern</h4>
-                <p className="text-white text-sm">Especialista en Odontología</p>
 
                 <div className="mt-3 flex gap-3">
                   <div className="w-8 h-8 rounded-full bg-[#8e44ad]/20 flex items-center justify-center">
