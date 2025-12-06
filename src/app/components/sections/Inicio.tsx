@@ -39,22 +39,6 @@ function Inicio() {
               </Link>
             </div>
 
-            <div className="flex items-center gap-6 pt-6">
-              <div className="flex -space-x-2">
-                <div className="w-10 h-10 rounded-full bg-[#8e44ad] flex items-center justify-center text-white text-sm">
-                  JM
-                </div>
-                <div className="w-10 h-10 rounded-full bg-[#3498db] flex items-center justify-center text-white text-sm">
-                  DR
-                </div>
-                <div className="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center text-white text-sm">
-                  +
-                </div>
-              </div>
-              <p className="text-sm text-gray-300">
-                <span className="font-semibold text-white">+1,000 pacientes</span> confían en nosotros
-              </p>
-            </div>
           </div>
 
           <div className="w-full md:w-1/2 flex justify-center md:justify-start lg:justify-center">
