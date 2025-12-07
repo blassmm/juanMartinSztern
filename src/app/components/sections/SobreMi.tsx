@@ -100,7 +100,7 @@ function SobreMi() {
 
         <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           <div className="bg-[#121212] p-6 rounded-lg text-center">
-            <div className="text-[#8e44ad] text-4xl font-bold mb-2">10+</div>
+            <div className="text-[#8e44ad] text-4xl font-bold mb-2">5+</div>
             <p className="text-white">Años de Experiencia</p>
           </div>
           <div className="bg-[#121212] p-6 rounded-lg text-center">

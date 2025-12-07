@@ -155,7 +155,7 @@ function ContactPage() {
                     </div>
                     <div>
                       <h4 className="text-white font-medium">Teléfono</h4>
-                      <p className="text-gray-300">+54 9 221 352-3273</p>
+                      <p className="text-gray-300">+54 9 11 2683-8497</p>
                       <div className="mt-2">
                         <WhatsAppButton
                           variant="button"
@@ -175,7 +175,7 @@ function ContactPage() {
                     </div>
                     <div>
                       <h4 className="text-white font-medium">Email</h4>
-                      <p className="text-gray-300">contacto@drjuanmartin.com</p>
+                      <p className="text-gray-300">odontologíadigitalsztern@gmail.com</p>
                     </div>
                   </div>
 

@@ -1,7 +1,9 @@
 "use client";
 import Image from 'next/image';
-import Link from 'next/link';
 import WhatsAppButton from '../ui/WhatsAppButton';
+
+// URL de WhatsApp predeterminada
+const WHATSAPP_URL = `https://wa.me/1126838497?text=${encodeURIComponent("Hola Juan Martin! te escribo porque me intereso...")}`;
 
 function Terapias() {
   const servicios = [
@@ -118,8 +120,10 @@ function Terapias() {
                 {servicio.description}
               </p>
 
-              <Link
-                href="/contacto"
+              <a
+                href={WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 className={`inline-flex items-center font-medium ${servicio.id === 4 ? 'text-white' : 'text-[#8e44ad]'
                   } hover:underline`}
               >
@@ -127,7 +131,7 @@ function Terapias() {
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-5 h-5 ml-1">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
-              </Link>
+              </a>
             </div>
           ))}
         </div>
