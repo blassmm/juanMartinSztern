@@ -4,7 +4,7 @@ import React from 'react';
 // Configuración interna del componente
 const DEFAULT_CONFIG = {
     // Número de teléfono con código de país (sin espacios ni guiones)
-    phoneNumber: "2213523273",
+    phoneNumber: "1126838497",
 
     // Mensaje predeterminado para WhatsApp
     defaultMessage: "Hola Juan Martin! te escribo porque me intereso..."
