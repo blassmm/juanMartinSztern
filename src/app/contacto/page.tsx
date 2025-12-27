@@ -20,8 +20,8 @@ function ContactPage() {
           <h1 className="section-title text-white">Contacto</h1>
           <p className="section-subtitle mb-12">Agenda tu consulta</p>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-            {/* Contact Form */}
+          <div className="max-w-2xl mx-auto">
+            {/* Contact Form
             <div className="bg-[#1a1a1a] p-6 md:p-8 rounded-lg shadow-lg border border-gray-800">
               <h2 className="text-2xl font-semibold text-white mb-6">Envíanos un mensaje</h2>
 
@@ -111,14 +111,13 @@ function ContactPage() {
                   </button>
                 </div>
               </form>
-            </div>
+            </div> */}
 
             {/* Map and Contact Info */}
-            <div className="space-y-6">
+            <div className="space-y-6 w-full">
               <div className="bg-[#1a1a1a] rounded-lg overflow-hidden h-80 shadow-lg border border-gray-800">
-                {/* Replace with actual Google Maps iframe with your coordinates */}
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0168878895478!2d-58.38375908495731!3d-34.60373446500296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1635181266028!5m2!1ses-419!2sar"
+                  src="https://maps.google.com/maps?q=C.+54+545,+B1900+La+Plata,+Provincia+de+Buenos+Aires,+Argentina&t=&z=16&ie=UTF8&iwloc=&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -142,8 +141,8 @@ function ContactPage() {
                     </div>
                     <div>
                       <h4 className="text-white font-medium">Dirección</h4>
-                      <p className="text-gray-300">Av. Corrientes 1234, Piso 5, Oficina B</p>
-                      <p className="text-gray-300">Buenos Aires, Argentina</p>
+                      <p className="text-gray-300">C. 54 545</p>
+                      <p className="text-gray-300">B1900 La Plata, Buenos Aires</p>
                     </div>
                   </div>
 
@@ -173,9 +172,9 @@ function ContactPage() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                       </svg>
                     </div>
-                    <div>
+                    <div className="min-w-0">
                       <h4 className="text-white font-medium">Email</h4>
-                      <p className="text-gray-300">odontologíadigitalsztern@gmail.com</p>
+                      <p className="text-gray-300 break-all">odontologíadigitalsztern@gmail.com</p>
                     </div>
                   </div>
 
