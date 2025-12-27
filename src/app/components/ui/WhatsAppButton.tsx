@@ -3,8 +3,8 @@ import React from 'react';
 
 // Configuración interna del componente
 const DEFAULT_CONFIG = {
-    // Número de teléfono con código de país (sin espacios ni guiones)
-    phoneNumber: "1126838497",
+    // Número con código de país Argentina (54) + número sin 0 ni 15
+    phoneNumber: "541126838497",
 
     // Mensaje predeterminado para WhatsApp
     defaultMessage: "Hola Juan Martin! te escribo porque me intereso..."
@@ -21,7 +21,7 @@ interface WhatsAppButtonProps {
     buttonStyle?: 'default' | 'outline' | 'custom';
 }
 
-const WhatsAppButton = ({ phoneNumber, message, size = 'md', position = 'fixed', customClass = '', variant = 'icon', buttonText = 'Agendar Consulta', buttonStyle = 'default'}: WhatsAppButtonProps) => {
+const WhatsAppButton = ({ phoneNumber, message, size = 'md', position = 'fixed', customClass = '', variant = 'icon', buttonText = 'Agendar Consulta', buttonStyle = 'default' }: WhatsAppButtonProps) => {
     // Use phoneNumber from props or from default config
     const finalPhoneNumber = phoneNumber || DEFAULT_CONFIG.phoneNumber;
     // Use message from props or from default config
@@ -64,7 +64,7 @@ const WhatsAppButton = ({ phoneNumber, message, size = 'md', position = 'fixed',
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
-                    className={`w-${size === 'sm' ? '5' : size === 'md' ? '7' : '8'} h-${size === 'sm' ? '5' : size === 'md' ? '7' : '8'}`}
+                    className={`${size === 'sm' ? 'w-5 h-5' : size === 'md' ? 'w-7 h-7' : 'w-8 h-8'}`}
                     fill="white"
                 >
                     <path

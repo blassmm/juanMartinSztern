@@ -1,0 +1,7 @@
+# Robots.txt para Dr. Juan Martín Sztern
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://juanmartinsztern.com/sitemap.xml
+
