@@ -61,8 +61,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   verification: {
-    // Agregar cuando tengas el código de Google Search Console
-    // google: "tu-codigo-de-verificacion",
+    google: "jiKHMvS9weal8HNzDX6Vcg0iyO66leG00WB_Wv9vwQY",
   },
 };
 
