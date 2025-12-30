@@ -2,7 +2,7 @@
 import React from 'react';
 
 const DEFAULT_CONFIG = {
-    instagramUser: "juanmartinpsicologia",
+    instagramUser: "od.juansztern",
 };
 
 interface InstagramButtonProps {
