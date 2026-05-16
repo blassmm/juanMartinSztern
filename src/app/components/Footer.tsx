@@ -8,9 +8,9 @@ function Footer() {
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pb-8 border-b border-gray-800">
                     <div className="text-center md:text-left">
-                        <h3 className="text-xl font-semibold mb-4">Dr. Juan Martín Sztern</h3>
+                        <h3 className="text-xl font-semibold mb-4">Odontólogo Juan M. Sztern - Odontología Digital</h3>
                         <p className="text-gray-400 mb-4">
-                            Especialista en Patología Cráneo-Mandibular (ATM) con enfoque integral, estético y funcional en cada tratamiento.
+                        Somos un centro odontológico en La Plata, ubicado en C. 54 545 entre 5 y 6, frente a Plaza San Martín. Contamos con la última tecnología para brindar un servicio con enfoque integral, estético y funcional en cada tratamiento. 
                         </p>
                         <div className="flex gap-4 mt-4 justify-center md:justify-start">
                             <a href="https://www.facebook.com/juansztern" className="w-8 h-8 rounded-full bg-[#8e44ad]/20 flex items-center justify-center text-[#8e44ad] hover:bg-[#8e44ad] hover:text-white transition-all">

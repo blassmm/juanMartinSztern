@@ -10,10 +10,10 @@ function SobreMi() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 items-center">
           {/* Imagen */}
-          <div className="relative flex items-center justify-center order-1 md:order-2">
+          <div className="relative flex items-center justify-center md:justify-end order-1 md:order-2">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-[#8e44ad] rounded-full filter blur-[100px] opacity-20"></div>
 
-            <div className="relative z-10 bg-[#121212] p-4 rounded-lg shadow-xl transform rotate-2 w-full max-w-sm">
+            <div className="relative z-10 bg-[#121212] p-4 rounded-lg shadow-xl w-full max-w-sm">
               <div className="aspect-[4/5] w-full rounded overflow-hidden relative">
                 <Image
                   src="/resources/profile-2.jpg"
@@ -63,7 +63,7 @@ function SobreMi() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#8e44ad] mr-2">•</span>
-                  <span>Profesor facultad de odontología UNLP</span>
+                  <span>Docente en la Facultad de Odontología de La Plata (FOLP - UNLP), en la catedra de cirugía A.</span>
                 </li>
               </ul>
             </div>

@@ -15,19 +15,38 @@ function Inicio() {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-20 md:py-0">
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
-          <div className="w-full md:w-1/2 space-y-6">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-              Dr. Juan Martín Sztern
-              <span className="block text-[#8e44ad] mt-2 text-2xl md:text-3xl lg:text-4xl">Especialista en Patología Cráneo-Mandibular (ATM).</span>
-              <span className="block text-[#8e44ad] text-2xl md:text-3xl lg:text-4xl">Diplomado en Ortodoncia</span>
-            </h1>
+          <div className="w-full md:w-1/2">
+            <div className="flex flex-col gap-5 md:gap-6 lg:gap-7">
+              <h1 className="text-4xl font-bold tracking-tight text-white leading-[1.12] md:text-5xl lg:text-6xl">
+                Odontólogo Juan M. Sztern - Odontología Digital
+              </h1>
+              <div className="flex flex-col gap-1.5 md:gap-2">
+                <h2 className="text-base font-medium leading-snug text-[#8e44ad] md:text-lg lg:text-xl">
+                  Especialista en Patología Cráneo-Mandibular (ATM).
+                </h2>
+                <h2 className="text-base font-medium leading-snug text-[#8e44ad] md:text-lg lg:text-xl">
+                  Diplomado en Ortodoncia
+                </h2>
+                <h2 className="text-base font-medium leading-snug text-[#8e44ad] md:text-lg lg:text-xl">
+                  Servicio de Endodoncia (tratamiento de conducto)
+                </h2>
+                <h2 className="text-base font-medium leading-snug text-[#8e44ad] md:text-lg lg:text-xl">
+                  Servicio de Rehabilitación, Implantes y Prótesis
+                </h2>
+              </div>
 
-            <p className="text-lg text-gray-300 max-w-lg">
-              Tratamientos personalizados con enfoque integral, estético y funcional,
-              utilizando tecnología de vanguardia para brindar la mejor atención a cada paciente.
-            </p>
+              <h3 className="max-w-xl text-base font-normal leading-relaxed text-gray-300/95 md:text-[1.0625rem] lg:text-lg lg:leading-8">
+                Somos Odontología Digital Sztern, un centro odontológico en La Plata,
+                ubicado en C. 54 545 entre 5 y 6, frente a Plaza San Martín. Brindamos
+                tratamientos de implantes dentales, ortodoncia, alineadores, rehabilitación
+                de articulación temporomandibular (ATM), estética dental, carillas y
+                rehabilitación oral, con un enfoque integral estético y funcional,
+                utilizando tecnología digital de vanguardia. Pueden encontrarnos en el
+                centro de La Plata, frente a Plaza San Martín.
+              </h3>
+            </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+            <div className="flex flex-col sm:flex-row gap-4 pt-6 md:pt-8">
               <WhatsAppButton
                 variant="button"
                 buttonText="Agendar Consulta"
