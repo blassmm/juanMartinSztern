@@ -5,8 +5,8 @@ function Terapias() {
   const servicios = [
     {
       id: 4,
-      title: 'Tratamiento Articular (ATM)',
-      description: 'Tratamiento especializado para problemas de la articulación temporomandibular y trastornos craneomandibulares.',
+      title: 'Tratamiento de Articulación Temporomandibular (ATM)',
+      description: 'Realizamos un diagnóstico de alta precisión. Y mediante desprogramación muscular con electrodos (tecnología que permite relajar los músculos de la masticación) encontramos la posición ideal de tu mordida. Complementamos el proceso con nuestro escáner digital para diseñar un dispositivo ortopédico con una exactitud milimétrica, eliminando el dolor y devolviéndote el bienestar.',
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-10 h-10">
           {/* Molar con flechas de movimiento */}
@@ -22,7 +22,7 @@ function Terapias() {
     {
       id: 1,
       title: 'Implantes Dentales',
-      description: 'Soluciones permanentes para reemplazar dientes perdidos con tecnología de vanguardia y materiales de la más alta calidad.',
+      description: 'Recuperá la funcionalidad y la estética de tu boca con la mayor seguridad. Utilizamos tomografías computadas Cone Beam para planificar cada caso con una precisión absoluta y, gracias al uso del escáner intraoral, diseñamos rehabilitaciones de alta calidad que se adaptan perfectamente a tu anatomía, logrando resultados naturales y duraderos. ',
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-10 h-10">
           {/* Corona del diente */}
@@ -43,7 +43,7 @@ function Terapias() {
     {
       id: 2,
       title: 'Estética Dental',
-      description: 'Mejora tu sonrisa con tratamientos personalizados como carillas, blanqueamiento y restauraciones de alta estética.',
+      description: 'Ofrecemos tratamientos de blanqueamiento, diseño de sonrisa, carillas de resina y cerámica, adaptándonos a tus objetivos estéticos mediante el diseño de sonrisa personalizado, asegurando una armonía total entre tus dientes y tus rasgos faciales. ',
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-10 h-10">
           {/* Diente brillante */}
@@ -60,8 +60,8 @@ function Terapias() {
     },
     {
       id: 3,
-      title: 'Ortodoncia Avanzada',
-      description: 'Alineación dental con las técnicas más modernas, incluyendo brackets estéticos y alineadores transparentes.',
+      title: 'Ortodoncia',
+      description: 'Corregimos la alineación de tus dientes con las técnicas más modernas. Contamos con una amplia gama de opciones: desde Brackets estándar y estéticos hasta sistemas de autoligado, para tratamientos más rápidos. Además, incorporamos la tecnología de escaneado digital para la planificación y confección de alineadores invisibles, brindándote una alternativa cómoda, estética y altamente eficaz. ',
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-10 h-10">
           {/* Tres dientes con brackets */}
@@ -83,8 +83,8 @@ function Terapias() {
     },
     {
       id: 5,
-      title: 'Rehabilitación Oral',
-      description: 'Recupera la funcionalidad y estética de tu boca con tratamientos integrales personalizados.',
+      title: 'Rehabilitación Oral y Prótesis',
+      description: 'Realizamos desde prótesis removibles hasta complejas rehabilitaciones sobre implantes o coronas fijas. Nuestro objetivo es restaurar la función completa de tu boca, integrando todas las especialidades necesarias para que tu salud dental sea integral y equilibrada. ',
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-10 h-10">
           {/* Molar con dos raíces */}
@@ -104,8 +104,8 @@ function Terapias() {
     },
     {
       id: 6,
-      title: 'Odontología Preventiva',
-      description: 'Cuidados preventivos para mantener una buena salud bucal y prevenir problemas futuros.',
+      title: 'Limpieza y Prevención',
+      description: 'El mejor tratamiento es el que evita el problema. Nuestro servicio de prevención incluye una limpieza profunda para eliminar placa y sarro, junto con un chequeo exhaustivo para detectar caries de forma temprana. Te brindamos las herramientas y consejos necesarios para mantener tu higiene en casa, asegurando que tus dientes se mantengan sanos y fuertes a lo largo del t iempo. ',
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-10 h-10">
           {/* Diente con escudo */}

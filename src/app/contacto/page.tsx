@@ -1,14 +1,15 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Link from "next/link";
-import type { Metadata } from "next";
+import { buildPageMetadata, contactDescription } from "@/lib/seo";
 import WhatsAppButton from "../components/ui/WhatsAppButton";
 import InstagramButton from "../components/ui/InstagramButton";
 
-export const metadata: Metadata = {
-  title: "Contacto | Dr. Juan Martín Sztern",
-  description: "Contacta con el Dr. Juan Martín Sztern para agendar una consulta o resolver cualquier duda sobre nuestros servicios odontológicos.",
-};
+export const metadata = buildPageMetadata({
+  title: "Contacto",
+  description: contactDescription,
+  path: "/contacto",
+});
 
 function ContactPage() {
   return (
